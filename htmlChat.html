@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prime Tech - Assistente Virtual</title>
+
+    <link rel="stylesheet" href="styleChatBot.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="cabecalho">
+
+            <img src="Imagens/logo-prime-tech.png"
+                 alt="Logo Prime Tech" class="logo">
+
+            <h1>PRIME TECH</h1>
+
+            <p class="slogan">TECNOLOGIA DE PRIMEIRA.</p>
+
+            <p class="descricao">
+                Assistente Virtual de Atendimento
+            </p>
+
+        </header>
+
+        <section class="chat">
+
+            <div class="mensagem-boasvindas">
+
+                <h2>Bem-vindo à Prime Tech!</h2>
+
+                <p>
+                    Olá! Sou o assistente virtual da Prime Tech.
+                    Estou aqui para ajudar você com nossos
+                    celulares e acessórios tecnológicos.
+                </p>
+
+            </div>
+
+            <div class="campo">
+
+                <label for="apiKey">Chave da API</label>
+
+                <input type="password"
+                       id="apiKey"
+                       placeholder="Cole sua chave da API aqui">
+
+            </div>
+
+            <div class="campo">
+
+                <label for="mensagem">
+                    Como podemos ajudar?
+                </label>
+
+                <textarea id="mensagem"
+                          rows="5"
+                          placeholder="Digite sua pergunta..."></textarea>
+
+            </div>
+
+            <button id="btnEnviar">
+                Enviar mensagem
+            </button>
+
+            <div class="area-resposta">
+
+                <h3>Resposta do assistente</h3>
+
+                <div id="resposta">
+                    Sua resposta aparecerá aqui.
+                </div>
+
+            </div>
+
+        </section>
+
+        <a href="index.html" class="botao-voltar">
+            Voltar para a página inicial
+        </a>
+
+        <footer>
+            <p>Prime Tech - Tecnologia de primeira.</p>
+            <p>Qualidade, inovação e confiança para você.</p>
+        </footer>
+
+    </main>
+
+    <script src="scriptChat.js"></script>
+
+</body>
+</html>

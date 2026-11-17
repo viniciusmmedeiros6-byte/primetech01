@@ -1,0 +1,186 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    background: #171717;
+    border: 2px solid #c9a227;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 0 25px rgba(201, 162, 39, 0.2);
+}
+
+.cabecalho {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 145px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #d4af37;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.slogan {
+    color: #d4af37;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
+
+.descricao {
+    color: #cccccc;
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+.chat {
+    background: #202020;
+    padding: 22px;
+    border-radius: 12px;
+}
+
+.mensagem-boasvindas {
+    background: #292929;
+    border-left: 4px solid #d4af37;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.mensagem-boasvindas h2 {
+    color: #d4af37;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.mensagem-boasvindas p {
+    color: #eeeeee;
+    line-height: 1.5;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #d4af37;
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 13px;
+    background: #111111;
+    border: 1px solid #8f7525;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #f1d36b;
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #d4af37;
+    color: #111111;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f1d36b;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.area-resposta {
+    margin-top: 25px;
+}
+
+.area-resposta h3 {
+    color: #d4af37;
+    margin-bottom: 12px;
+}
+
+#resposta {
+    background: #111111;
+    border: 1px solid #8f7525;
+    border-radius: 8px;
+    padding: 18px;
+    min-height: 100px;
+    color: #eeeeee;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.botao-voltar {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background: #d4af37;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.botao-voltar:hover {
+    background: #f1d36b;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #aaaaaa;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+footer p:first-child {
+    color: #d4af37;
+    font-weight: bold;
+}
